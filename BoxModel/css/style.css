@@ -1,0 +1,29 @@
+#container {
+    background-color: seashell;
+}
+
+header {
+    background-color: sandybrown;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+#section1 {
+    height: 500px;
+    width: 45%;
+    background-color: indianred;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+#section2 {
+    height: 500px;
+    width: 45%;
+    background-color: lightseagreen;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+}
