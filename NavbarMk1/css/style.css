@@ -1,0 +1,44 @@
+li {
+    padding: 10px;
+    list-style: none;
+}
+
+#nav1 {
+    background-color: lightgreen;
+    position: fixed;
+    width: 100%;
+}
+
+#nav2 {
+    background-color: lightskyblue;
+    position: relative;
+    top: 150px;
+}
+
+#nav3 {
+    background-color: lightslategrey;
+    position: absolute;
+    bottom: 150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightpink;
+}
+
+li nav {
+    display: inline;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    height: 1500px;
+    position: relative;
+}
+
