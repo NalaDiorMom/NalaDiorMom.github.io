@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    background-color: lightpink;
+    padding: 10px;
+}
+
+nav {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
