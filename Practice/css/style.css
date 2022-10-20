@@ -24,3 +24,13 @@ nav {
     padding: 10px;
 }
 
+#about :hover {
+    background-color: lightpink;
+    padding: 10px;
+}
+
+#contact :hover {
+    background-color: lightpink;
+    padding: 10px;
+}
+
