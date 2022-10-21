@@ -1,36 +1,60 @@
-ul {
+nav {
+    background-color: salmon;
+    padding: 0px;
+}
+
+#main-nav {
     display: flex;
+    justify-content: flex-start;
+    align-content: center;
     padding: 10px;
-    justify-content: flex-end;
-    flex-direction: column;
 }
 
 li {
-    padding: 10px;
     list-style: none;
+    padding: 10px;
 }
 
 a {
     text-decoration: none;
 }
 
-a :hover {
-    background-color: lightpink;
+a:hover {
+    background-color: lightsalmon;
     padding: 10px;
+    border-radius: 5px;
 }
 
-nav {
-    background-color: lightgreen;
-    padding: 10px;
+a:link {
+    color: lightseagreen;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 25px;
+    display: flex;
+    align-content: flex-start;
 }
 
-#about :hover {
-    background-color: lightpink;
-    padding: 10px;
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: salmon;
 }
 
-#contact :hover {
-    background-color: lightpink;
-    padding: 10px;
+body {
+    background-color: seashell;
 }
 
+.menu-dd {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 10px;
+    border: 2px solid lightseagreen;
+    position: absolute;
+    opacity: 0;
+    align-content: flex-start;
+}
+
+.dropdown:hover .menu-dd {
+    opacity: 1;
+}
