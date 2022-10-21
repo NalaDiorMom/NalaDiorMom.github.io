@@ -53,6 +53,7 @@ body {
     position: absolute;
     opacity: 0;
     align-content: flex-start;
+    transition-duration: .5s;
 }
 
 .dropdown:hover .menu-dd {
