@@ -36,7 +36,8 @@ a:link {
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
+    font-weight: 550;
+    font-size: 35px;
     color: salmon;
 }
 
@@ -54,6 +55,7 @@ body {
     opacity: 0;
     align-content: flex-start;
     transition-duration: .5s;
+    background-color: salmon;
 }
 
 .dropdown:hover .menu-dd {
@@ -65,5 +67,18 @@ body {
 
     ul {
         flex-direction: column;
-    }
 } */
+
+ul {
+    display: flex;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 0;
+}
+
+img {
+    width: 600px;
+}
