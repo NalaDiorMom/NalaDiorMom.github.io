@@ -62,13 +62,6 @@ body {
     opacity: 1;
 }
 
-/* Media Query
-@media only screen and (max-width: 768px) {
-
-    ul {
-        flex-direction: column;
-} */
-
 ul {
     display: flex;
 }
@@ -82,3 +75,10 @@ p {
 img {
     width: 600px;
 }
+
+/* Media Query
+@media only screen and (max-width: 768px) {
+
+    ul {
+        flex-direction: column;
+} */
