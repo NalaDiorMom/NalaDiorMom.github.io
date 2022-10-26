@@ -21,3 +21,10 @@ th {
     background-color: green;
 }
 
+#rank {
+    border-radius: 15px 0px 0px 0px;
+}
+
+#team {
+    border-radius: 0px 15px 0px 0px;
+}
