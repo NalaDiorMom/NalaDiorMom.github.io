@@ -45,4 +45,11 @@ main {
         font-size: 24px;
         margin: 0px;
     }
+
+    header {
+        background-color: aqua;
+    }
+    nav {
+        background-color: aquamarine;
+    }
 }
