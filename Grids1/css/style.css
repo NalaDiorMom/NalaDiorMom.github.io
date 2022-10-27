@@ -1,0 +1,86 @@
+#mygrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:
+    "myheader myheader myheader"
+    "sidenav content uno"
+    "sidenav content river"
+    "footer footer footer"
+}
+
+header {
+    background-color: blue;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 36px;
+    grid-area: myheader;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 36px;
+    grid-area: sidenav;
+}
+
+main {
+    padding: 36px;
+    grid-area: content;
+}
+
+footer {
+    background-color: blue;
+    color: gold;
+    padding: 36px;
+    grid-area: footer;
+}
+
+ul, a {
+    color: gold;
+    list-style: none;
+    padding: 15px;
+}
+
+a:hover {
+    color: blue;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#river {
+    width: 300px;
+    grid-area: river;
+}
+
+#uno {
+    width: 300px;
+    grid-area: uno;
+}
+
+
+@media screen and (max-width: 480px) {
+    .mygrid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "myheader"
+        "sidenav"
+        "content"
+        "footer";
+    }
+    header,
+    nav,
+    main {
+        padding: 18px;
+    }
+    header,
+    nav {
+        text-align: center;
+    }
+    header h1 {
+        font-size: 24px;
+        margin: 0px;
+    }
+}
