@@ -41,3 +41,23 @@ main {
         grid-template-columns: 10% 80% 10%;
     }
 }
+
+#firstname {
+    width: 215px;
+    height: 25px;
+}
+
+#lastname {
+    width: 215px;
+    height: 25px;
+}
+
+#numberoremail {
+    width: 450px;
+    height: 25px;
+}
+
+#newpassword {
+    width: 450px;
+    height: 25px;
+}
