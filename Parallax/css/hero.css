@@ -1,0 +1,17 @@
+.site-hero {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 2px;
+}
