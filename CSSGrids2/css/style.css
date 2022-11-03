@@ -1,0 +1,22 @@
+.column-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gallery-1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gallery-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: fixed;
+    width: fixed;
+    object-fit: cover;
+}
+
+.gallery-3 {
+    columns: 3 auto;
+    width: 100%;
+}
