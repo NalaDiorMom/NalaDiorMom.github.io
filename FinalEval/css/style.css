@@ -1,0 +1,18 @@
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+button {
+    padding: 3px;
+    color: aliceblue;
+}
+
+#signup {
+    background-color: blue;
+}
+
+#login {
+    background-color: black;
+}
+
