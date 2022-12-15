@@ -1,6 +1,9 @@
 header {
+   background-color: black;
+}
+
+nav {
     background-color: black;
-    padding: 15px;
 }
 
 button {
@@ -16,3 +19,33 @@ button {
     background-color: black;
 }
 
+main {
+    background-image:url("assets/background.jpeg");
+    background-color: black;
+    margin: 15px;
+}
+
+.card-group {
+    background-color: black;
+    color: aliceblue
+}
+
+.card-body {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-content: center;
+}
+
+br {
+    background-color: black;
+    color: black;
+}
+
+body {
+    background-color: black;
+}
