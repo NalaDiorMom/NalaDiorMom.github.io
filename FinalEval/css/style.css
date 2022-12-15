@@ -1,5 +1,18 @@
 header {
-   background-color: black;
+   background-image: url(/FinalEval/assets/background.jpeg);
+   align-content: center;
+   color: aliceblue;
+}
+
+#email {
+    height: 40px;
+    width: 600px;
+}
+
+#submit {
+    color: aliceblue;
+    background-color: blue;
+    height: 40px;
 }
 
 nav {
@@ -20,10 +33,9 @@ button {
 }
 
 main {
-    background-image:url("assets/background.jpeg");
     background-color: black;
-    margin: 15px;
 }
+
 
 .card-group {
     background-color: black;
@@ -48,4 +60,10 @@ br {
 
 body {
     background-color: black;
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        grid-template-columns: 10% 80% 10%;
+    }
 }
